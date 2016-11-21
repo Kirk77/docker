@@ -1,7 +1,7 @@
 FROM anapsix/alpine-java:8_server-jre_unlimited
 MAINTAINER kirk77@gmail.com
 
-ENV OPENFIRE_VERSION=4_0_2 \
+ENV OPENFIRE_VERSION=4_0_3 \
     OPENFIRE_DATA_DIR=/var/lib/openfire
 
 RUN wget http://www.igniterealtime.org/downloadServlet?filename=openfire/openfire_${OPENFIRE_VERSION}.tar.gz -O /openfire_${OPENFIRE_VERSION}.tar.gz \
