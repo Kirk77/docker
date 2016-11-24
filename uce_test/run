@@ -2,4 +2,5 @@ docker run -d -it --name uce_test \
 	-v /c/Users/kirk/docker_data:/c/Users/kirk/docker_data \
 	-p 3306:3306 \
 	-p 3478:3478 -p 3479:3479  -p 5222:5222 -p 5223:5223 -p 5229:5229 -p 7070:7070 -p 7443:7443 -p 7777:7777 -p 9090:9090 -p 9091:9091 \
-	kirk77/uce_test:init bash
+	-p 15671:15671 -p 15672:15672 -p 5671:5671 -p 5672:5672 \
+	kirk77/uce_test:latest bash
