@@ -1,0 +1,4 @@
+docker run -d -it --name tomcat \
+	-v /c/Users/kirk/docker_data:/c/Users/kirk/docker_data \
+	-p 8080:8080 -p 3306:3306 \
+	kirk77/tomcat bash

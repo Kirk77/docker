@@ -1,0 +1,1 @@
+docker build --rm -t kirk77/xml_test .
